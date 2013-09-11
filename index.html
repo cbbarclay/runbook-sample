@@ -8,6 +8,8 @@ use Aws\Sns\MessageValidator\Exception\SnsMessageValidatorException;
  
 $validator = new MessageValidator;
 $snsMessage = Message::fromRawPostData();
+
+file_put_contents('tmp/chris.txt', $snsMessage);
  
 try {
     $validator->validate($snsMessage);
