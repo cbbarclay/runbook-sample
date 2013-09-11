@@ -1,0 +1,18 @@
+<?php 
+ 
+require '/path/to/vendor/autoload.php';
+ 
+use Aws\Sns\MessageValidator\Message;
+use Aws\Sns\MessageValidator\MessageValidator;
+use Aws\Sns\MessageValidator\Exception\SnsMessageValidatorException;
+ 
+$validator = new MessageValidator;
+$snsMessage = Message::fromRawPostData();
+ 
+try {
+    $validator->validate($snsMessage);
+    echo 'Subject: ' $snsMessage->get('Subject') . "\n";
+    echo 'Message: ' $snsMessage->get('Message') . "\n";
+} catch (SnsMessageValidatorException $e) {
+    echo "The SNS message was not valid.\n";
+}
