@@ -1,0 +1,9 @@
+{
+  "id": "mysql",
+  "production" : {
+                                    "username": "prod-user",
+                                    "password": "prod-pass"  },
+  "_default" : {
+                                    "username": " test-user ",
+                                    "password": " test-pass "  }
+}
