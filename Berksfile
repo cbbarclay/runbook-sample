@@ -1,5 +1,5 @@
 cookbook 'apt', '>= 2.3.8', git: 'git://github.com/opscode-cookbooks/apt.git'
-cookbook 'ark', git: 'git://github.com/opscode-cookbooks/ark.git', tag: '0.4.2'
+cookbook 'ark', git: 'git://github.com/opscode-cookbooks/ark.git', tag: 'v0.4.2'
 cookbook 'bluepill', '>= 2.3.1', git: 'git://github.com/opscode-cookbooks/bluepill.git'
 cookbook 'build-essential', '>= 1.4.2', git: 'git://github.com/opscode-cookbooks/build-essential.git'
 cookbook 'java', '>= 1.19.2', git: 'git://github.com/opscode-cookbooks/java.git', tag: '1.19.2'
