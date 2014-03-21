@@ -1,4 +1,4 @@
 {
-                    "_default": {"username": "default-user", "password": "default-pass"},
+                    "_default": {"username": "blahblah, "password": "default-pass"},
                     "production": {"username": "prod-user", "password": "prod-pass"}
                 }
