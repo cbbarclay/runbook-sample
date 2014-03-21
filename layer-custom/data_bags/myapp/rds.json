@@ -1,4 +1,5 @@
 {
+                     "id": "rds",
                     "_default": {"username": "default-user", "password": "default-pass"},
                     "production": {"username": "prod-user", "password": "prod-pass"}
                 }
