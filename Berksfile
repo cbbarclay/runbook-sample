@@ -12,5 +12,6 @@ cookbook 'windows', '>= 1.30.0', git: 'git://github.com/opscode-cookbooks/window
 cookbook 'yum', '>= 3.1.0', git: 'git://github.com/opscode-cookbooks/yum.git', tag: 'v3.1.0'
 cookbook 'yum-epel', '>= 0.3.4', git: 'git://github.com/opscode-cookbooks/yum-epel.git'
 cookbook 'elasticsearch', git: 'git://github.com/elasticsearch/cookbook-elasticsearch.git', tag: '0.3.7'
+cookbook 'chef-mongodb', git: 'git://github.com/edelight/chef-mongodb'
 
 #cookbook 'layer-custom' :path => "./layer-custom"
