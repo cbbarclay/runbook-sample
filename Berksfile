@@ -4,7 +4,6 @@ cookbook 'bluepill', '>= 2.3.1', git: 'git://github.com/opscode-cookbooks/bluepi
 cookbook 'build-essential', '>= 1.4.2', git: 'git://github.com/opscode-cookbooks/build-essential.git', tag: 'v1.4.2'
 cookbook 'java', '>= 1.19.2', git: 'git://github.com/opscode-cookbooks/java.git', tag: 'v1.21.2'
 cookbook 'monit', '>= 0.6', git: 'git://github.com/apsoto/monit.git'
-cookbook 'nginx', '>= 2.2.2', git: 'git://github.com/opscode-cookbooks/nginx.git'
 cookbook 'ohai', '>= 1.1.12', git: 'git://github.com/opscode-cookbooks/ohai.git'
 cookbook 'python', '>= 1.4.6', git: 'git://github.com/poise/python.git'
 cookbook 'rsyslog', '>= 1.11.0', git: 'git://github.com/opscode-cookbooks/rsyslog.git', tag: 'v1.11.0'
@@ -13,6 +12,5 @@ cookbook 'yum', '>= 3.1.0', git: 'git://github.com/opscode-cookbooks/yum.git', t
 cookbook 'yum-epel', '>= 0.3.4', git: 'git://github.com/opscode-cookbooks/yum-epel.git'
 cookbook 'elasticsearch', git: 'git://github.com/elasticsearch/cookbook-elasticsearch.git', tag: '0.3.7'
 cookbook 'mongodb', git: 'git://github.com/edelight/chef-mongodb'
-cookbook 'runit', git: 'git://github.com/hw-cookbooks/runit'
 
 #cookbook 'layer-custom' :path => "./layer-custom"
